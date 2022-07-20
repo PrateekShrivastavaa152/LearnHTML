@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Page</title>
+    <link rel="stylesheet" href="css/formpage.css">
+    
 
 </head>
 
@@ -22,15 +24,47 @@
                 <li><a href="http://127.0.0.1:5500/Exercise_StreamFlowzApp/Entertainment.html" target="_blank">Entertainment</a></li>
                 <li><a href="http://127.0.0.1:5500/Exercise_StreamFlowzApp/priceplan.html" target="_blank">Plan Price</a></li>
               </ul>
+              <button type="submit"><a href="http://127.0.0.1:5500/Exercise_StreamFlowzApp/form.html" target="_blank">Signup</a></button>
                
-               
-            </div>
-            <!-- <i class="fa fa-bars"></i> -->
-        </div>
+            <!--</div>
+            <i class="fa fa-bars"></i>
+        </div> -->
         
 <div id="login-box">
   <div class="leftbox">
     <h2>Signup</h2>
+    <form action="backend.php">
+      <div>
+           <input type="text" name="Username" placeholder="Username">
+      </div>
+      <br>
+      <div>
+          <input type="email" name="myEmail" placeholder="Email">
+      </div>
+      <br>
+      <div>
+        <input type="password" name="pasword" placeholder="Password">
+      </div>
+      <br>
+      <div>
+          <button type="submit">Signup</button>
+      </div>
+      <br>
+      <div>
+        
+        
+          <button type="submit"><a href="#" class="fb btn">
+            <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+          </a></button></div>
+          <br>
+          <div>
+          <button type="submit"><a href="#" class="google btn">
+            <i class="fa fa-google fa-fw"></i> Login with Google+
+          </a></button>
+        
+        
+        </div>
+  </form>
     
 
   </div>
